@@ -1,0 +1,66 @@
+<style>
+/* テキスト色と行間変更 */
+.honbun-body p,
+.honbun-body li,
+.honbun-body dt,
+.honbun-body dd{
+line-height: 1.8em;
+color: #333;
+text-align: justify;
+}
+.honbun-body dt{
+text-align: left;
+font-weight: bold;
+color: #5C7E5C;
+}
+/* ヘッダー行間変更 */
+.honbun-body h3,
+.honbun-body h4{
+margin-top: 2.5rem;
+margin-bottom: 1rem;
+padding-bottom: 0;
+}
+/* ※印などの文字位置合わせ */
+.idt{
+text-indent: -1em;
+padding-left: 1em;
+}
+/* 募集ページ */
+.honbun-body .usr_tbl{
+width: 100%;
+border-collapse: collapse;
+border-top: 1px solid #CCC;
+border-right: 1px solid #CCC;
+}
+.honbun-body .usr_tbl th,
+.honbun-body .usr_tbl td{
+border-collapse: collapse;
+border-left: 1px #CCC solid;
+border-bottom: 1px #CCC solid;
+padding: 5px;
+background-color: #FFF;
+color: #222;
+box-sizing: border-box;
+}
+.honbun-body .usr_tbl th{
+width: 8em;
+background-color: #F0F4F0;
+font-weight: bold;
+color: #5C7E5C;
+text-align: center;
+}
+@media screen and (max-width:720px){
+.honbun-body .usr_tbl{
+width: 100%;
+table-layout: fixed;
+}
+.honbun-body .usr_tbl tr,
+.honbun-body .usr_tbl th,
+.honbun-body .usr_tbl td{
+display: block;
+}
+.honbun-body .usr_tbl th{
+width: 100%;
+}
+}
+</style>
